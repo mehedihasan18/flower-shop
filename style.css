@@ -23,7 +23,8 @@ header,
 }
 
 .banner-title,
-.offer-section-title {
+.offer-section-title,
+.instagram-section-title {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
@@ -31,7 +32,8 @@ header,
 }
 
 .banner-details,
-.offer-section-details {
+.offer-section-details,
+.instagram-section-details {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     line-height: 30px;
@@ -77,4 +79,22 @@ header,
 
 .off-text {
     color: #E55473;
+}
+
+/* instagram section css  */
+.instagram-section {
+    margin-top: 128px;
+    text-align: center;
+}
+
+.gallery img {
+    margin-right: 24px;
+}
+
+.instagram-section-title {
+    font-size: 40px;
+}
+
+.instagram-section-details {
+    margin: 24px auto 48px;
 }
