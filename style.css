@@ -25,7 +25,8 @@ header,
 .banner-title,
 .offer-section-title,
 .instagram-section-title,
-.newsletter-section-title {
+.newsletter-section-title,
+.featured-flowers-section-title {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
@@ -35,7 +36,8 @@ header,
 .banner-details,
 .offer-section-details,
 .instagram-section-details,
-.newsletter-section-details {
+.newsletter-section-details,
+.featured-flowers-section-details {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     line-height: 30px;
@@ -81,6 +83,51 @@ header,
 
 .off-text {
     color: #E55473;
+}
+
+/* featured flowers section css  */
+.featured-flowers-section {
+    width: 80%;
+    margin: 128px auto;
+    text-align: center;
+}
+
+.featured-flowers-section-title {
+    font-size: 40px;
+}
+
+.flower-tree-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.flower-tree {}
+
+.flower-tree>img {
+    background-color: rgba(167, 33, 98, 0.15);
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    padding: 110px 77px 0px;
+}
+
+.flower-tree>.flower-img-two {
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 51px;
+}
+
+.flower-tree>.flower-img-three {
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0px;
+}
+
+.flower-tree-title {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: underline;
+    margin-top: 32px;
 }
 
 /* instagram section css  */
