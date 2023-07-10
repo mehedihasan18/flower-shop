@@ -85,12 +85,18 @@ header,
 
 /* instagram section css  */
 .instagram-section {
-    margin-top: 128px;
+    width: 80%;
+    margin: 128px auto;
+}
+
+.section-heading {
     text-align: center;
 }
 
-.gallery img {
-    margin-right: 24px;
+.gallery {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
 }
 
 .instagram-section-title {
@@ -141,4 +147,35 @@ header,
     font-size: 20px;
     font-weight: 700;
     border-radius: 8px;
+}
+
+/* footer section css  */
+
+.footer {
+    background-color: #111010;
+    text-align: center;
+    padding: 128px 0px;
+}
+
+.footer>.title-left,
+.title-right {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.title-right {
+    color: #FFF;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    margin-top: 32px;
 }
